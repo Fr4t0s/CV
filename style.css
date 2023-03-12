@@ -14,6 +14,15 @@ body {
 
 .header__avatar {
   border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition:         transform .8s ease-in-out;
+}
+
+.header__avatar:hover {  
+  outline: 5px solid #2d2388;
+  outline-offset: -5px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 .header__title {
