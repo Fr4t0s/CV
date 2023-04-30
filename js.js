@@ -3,5 +3,5 @@ const button = document.querySelector('button');
 
 /* Тут на кнопку навешиваем обрабочик, который ждёт клика и тогда запустит логику */
 button.addEventListener('click', function() {
-	alert('Деньги это не главное \u{1F60E}')
+	alert('Быть одному не значит быть одиноким \u{1F60E}')
 })

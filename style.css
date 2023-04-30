@@ -13,7 +13,7 @@ body {
 }
 
 .header__avatar {
-  border-radius: 50%;
+  border-radius: 70%;
   -webkit-transition: -webkit-transform .8s ease-in-out;
   transition:         transform .8s ease-in-out;
 }
@@ -91,6 +91,7 @@ body {
 .links__link:visited {
   text-decoration: none;
   color: #cb782f;
+  justify-content: center;
 }
 
 .links__title {
@@ -109,8 +110,11 @@ footer {
   align-items: center;
   padding: 10px;
   width: 320px;
-  background: #cb782f;
+  background: #4053bd;
   border-radius: 20px;
+  border-width: 3px;
+  border-color: chocolate;
+  border-style: solid;
 
   font-size: 14px;
   line-height: 1.4;
